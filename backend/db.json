@@ -1,0 +1,55 @@
+{
+  "courses": [
+    {
+      "id": "CS101",
+      "title": "Introduction to Computer Science"
+    },
+    {
+      "id": "MATH201",
+      "title": "Calculus I"
+    },
+    {
+      "id": "ENG150",
+      "title": "English Composition"
+    }
+  ],
+  "registrations": [
+    {
+      "id": "1779451461699",
+      "name": "Ahmed",
+      "email": "aae121@aucegypt.edu",
+      "studentId": "900213472",
+      "course": "CS101",
+      "year": "3",
+      "agree": true,
+      "createdAt": "2026-05-22T12:04:21.700Z"
+    },
+    {
+      "id": "1779452618472",
+      "name": "Student One",
+      "email": "s1@example.com",
+      "studentId": "S1001",
+      "course": "CS101",
+      "year": "2",
+      "agree": true,
+      "createdAt": "2026-05-22T12:23:38.472Z",
+      "createdBy": "student1"
+    }
+  ],
+  "admins": [
+    {
+      "username": "admin",
+      "password": "admin123"
+    }
+  ],
+  "users": [
+    {
+      "username": "student1",
+      "password": "pass123",
+      "role": "user",
+      "name": "Student One",
+      "email": "s1@example.com",
+      "studentId": "S1001"
+    }
+  ]
+}
